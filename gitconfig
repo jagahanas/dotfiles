@@ -3,8 +3,8 @@
 	branch = auto
 	diff = auto
 [user]
-	email = kmanville@gmail.com
-	name = Keith Manville
+	email = cavanaughbe+dev@gmail.com
+	name = Brian Cavanaugh
 [branch]
 	autosetupmerge = true
 [branch "master"]

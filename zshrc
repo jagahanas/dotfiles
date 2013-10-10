@@ -63,7 +63,7 @@ function aurget {
     wget http://aur.archlinux.org/packages/$1/$1.tar.gz && tar -xzf $1.tar.gz && rm $1.tar.gz && cd $1 && makepkg -si
 }
 
-alias valgrind='valgrind --suppressions=/Users/kmanville/.valgrind.supp'
+alias valgrind='valgrind --suppressions=/Users/brian/.valgrind.supp'
 alias gdb='/usr/bin/gdb'
 alias playdvd='mplayer -mouse-movements dvdnav://'
 alias pidgin='NSS_SSL_CBC_RANDOM_IV=0 pidgin'

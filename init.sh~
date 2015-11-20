@@ -1,0 +1,12 @@
+git submodule init
+git submodule update
+mv -rf `pwd`/gdbinit ~/.gdbinit
+mv -rf `pwd`/gitconfig ~/.gitconfig
+mv -rf `pwd`/oh-my-zsh/ ~/.oh-my-zsh
+mv -rf `pwd`/slate ~/.slate
+mv -rf `pwd`/tmux.conf ~/.tmux.conf
+mv -rf `pwd`/vim/ ~/.vim
+mv -rf `pwd`/vim/vimrc ~/.vimrc
+mv -rf `pwd`/zshrc ~/.zshrc
+mkdir ~/.vim/undo
+vim +BundleInstall +qall

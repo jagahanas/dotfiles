@@ -1,17 +1,21 @@
+"set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'tpope/vim-fugitive'
-Bundle 'vim-scripts/a.vim'
-Bundle 'vim-scripts/DoxygenToolkit.vim'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'tpope/vim-surround'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'scrooloose/syntastic'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/nerdtree'
-Bundle 'croaker/mustang-vim'
-Bundle 'terryma/vim-smooth-scroll'
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-scripts/a.vim'
+Plugin 'vim-scripts/DoxygenToolkit.vim'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'tpope/vim-surround'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'croaker/mustang-vim'
+Plugin 'terryma/vim-smooth-scroll'
+
+call vundle#end()
+filetype plugin indent on

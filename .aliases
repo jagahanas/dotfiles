@@ -1,0 +1,10 @@
+# print to the screen that something is reading the aliases file
+echo 'reading ~/.aliases'
+# list of aliases
+alias bu='brew update && brew upgrade'
+alias ssh='ssh -Y'
+alias ll='ls -l'
+alias vim='vim -p'
+alias df='df -h'
+#alias du='du -ch'
+alias mkdir='mkdir -p'

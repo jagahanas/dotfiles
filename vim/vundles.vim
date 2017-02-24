@@ -16,6 +16,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'croaker/mustang-vim'
 Plugin 'terryma/vim-smooth-scroll'
+Plugin 'alessandroyorba/alduin'
 
 call vundle#end()
 filetype plugin indent on

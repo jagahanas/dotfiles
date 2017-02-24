@@ -130,7 +130,7 @@ map <leader>gb :Gblame<cr>
 set laststatus=2
 
 "YouCompleteMe options
-let g:ycm_global_ycm_extra_conf = '/Users/kmanville/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '/Users/bcavanaugh/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
 
 "reload vim when vimrc is modified
 augroup myvimrc

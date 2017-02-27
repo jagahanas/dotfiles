@@ -8,5 +8,8 @@ ln -s `pwd`/tmux.conf ~/.tmux.conf
 ln -s `pwd`/vim/ ~/.vim
 ln -s `pwd`/vim/vimrc ~/.vimrc
 ln -s `pwd`/zshrc ~/.zshrc
+ln -s `pwd`/.bashrc ~/.bashrc
+ln -s `pwd`/.aliases ~/.aliases
+ln -s `pwd`/.ssh ~/.ssh
 mkdir ~/.vim/undo
 vim +BundleInstall +qall

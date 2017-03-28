@@ -9,6 +9,7 @@ ln -s `pwd`/vim/ ~/.vim
 ln -s `pwd`/vim/vimrc ~/.vimrc
 ln -s `pwd`/zshrc ~/.zshrc
 ln -s `pwd`/.bashrc ~/.bashrc
+ln -s `pwd`/.bash_profile ~/.bash_profile
 ln -s `pwd`/.aliases ~/.aliases
 ln -s `pwd`/.ssh ~/.ssh
 mkdir ~/.vim/undo
